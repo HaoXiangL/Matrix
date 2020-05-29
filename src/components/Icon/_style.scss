@@ -1,0 +1,6 @@
+// scss中使用@each循环数组或者Map结构，快速建立一些样式
+@each $key,$val in $theme-colors {
+  .icon-#{$key} {
+    color: $val;
+  }
+}
